@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pro.mapper.BackAuthoritiesMapper">
+    <sql id="tableName">
+        sys_back_authorities
+    </sql>
+
+    <sql id="baseColumn">
+        id,org_code,authority_name,authority,menu_url,parent_id,menu_type,sort,menu_icon,is_delete,create_time,modify_time,create_id,modify_id
+    </sql>
+
+</mapper>

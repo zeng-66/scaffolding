@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cn.hutool:hutool-json:5.7.18">
+    <CLASSES>
+      <root url="jar://F:/apache-maven-3.8.1/repository/cn/hutool/hutool-json/5.7.18/hutool-json-5.7.18.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://F:/apache-maven-3.8.1/repository/cn/hutool/hutool-json/5.7.18/hutool-json-5.7.18-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://F:/apache-maven-3.8.1/repository/cn/hutool/hutool-json/5.7.18/hutool-json-5.7.18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

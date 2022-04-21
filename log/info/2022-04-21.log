@@ -1,0 +1,46 @@
+2022-04-21 16:51:43 [main] INFO  Application -Starting Application on DESKTOP-VR5DGP6 with PID 9168 (D:\desktop\scaffolding\deploy\target\classes started by zeng in D:\desktop\scaffolding)
+2022-04-21 16:51:43 [main] INFO  Application -The following profiles are active: dev
+2022-04-21 16:51:44 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-21 16:51:44 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-21 16:51:44 [main] WARN  org.springframework.boot.autoconfigure.AutoConfigurationPackages -@EnableAutoConfiguration was declared on a class in the default package. Automatic @Repository and @Entity scanning is not enabled.
+2022-04-21 16:51:44 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2022-04-21 16:51:44 [main] INFO  org.springframework.context.annotation.ConfigurationClassPostProcessor -Cannot enhance @Configuration bean definition 'mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2022-04-21 16:51:44 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'shiroConfig' of type [com.pro.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$a9f43d8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 16:51:45 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'credentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 16:51:45 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'userRealm' of type [com.pro.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 16:51:45 [main] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -Cache with name 'com.pro.shiro.UserRealm.authorizationCache' does not yet exist.  Creating now.
+2022-04-21 16:51:45 [main] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -Added EhCache named [com.pro.shiro.UserRealm.authorizationCache]
+2022-04-21 16:51:45 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'getDefaultWebSessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 16:51:45 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 16:51:45 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 16:51:45 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-21 16:51:45 [main] INFO  org.eclipse.jetty.util.log -Logging initialized @8421ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-04-21 16:51:45 [main] INFO  org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory -Server initialized with port: 9300
+2022-04-21 16:51:45 [main] INFO  org.eclipse.jetty.server.Server -jetty-9.4.25.v20191220; built: 2019-12-20T17:00:00.294Z; git: a9729c7e7f33a459d2616a8f9e9ba8a90f432e95; jvm 1.8.0_152-b16
+2022-04-21 16:51:45 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler.application -Initializing Spring embedded WebApplicationContext
+2022-04-21 16:51:45 [main] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2604 ms
+2022-04-21 16:51:47 [main] INFO  org.eclipse.jetty.server.session -DefaultSessionIdManager workerName=node0
+2022-04-21 16:51:47 [main] INFO  org.eclipse.jetty.server.session -No SessionScavenger set, using defaults
+2022-04-21 16:51:47 [main] INFO  org.eclipse.jetty.server.session -node0 Scavenging every 600000ms
+2022-04-21 16:51:47 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler -Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@76216830{application,/,[file:///C:/Users/zeng/AppData/Local/Temp/jetty-docbase.7535645434944288252.9300/, jar:file:/F:/apache-maven-3.8.1/repository/com/github/xiaoymin/knife4j-spring-ui/2.0.4/knife4j-spring-ui-2.0.4.jar!/META-INF/resources],AVAILABLE}
+2022-04-21 16:51:47 [main] INFO  org.eclipse.jetty.server.Server -Started @9915ms
+2022-04-21 16:51:48 [main] INFO  org.redisson.Version -Redisson 3.6.5
+2022-04-21 16:51:49 [redisson-netty-4-4] INFO  org.redisson.connection.pool.MasterPubSubConnectionPool -1 connections initialized for /127.0.0.1:6379
+2022-04-21 16:51:49 [redisson-netty-4-11] INFO  org.redisson.connection.pool.MasterConnectionPool -32 connections initialized for /127.0.0.1:6379
+2022-04-21 16:51:49 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-21 16:51:49 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler -Initializing ExecutorService 'taskScheduler'
+2022-04-21 16:51:49 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -Context refreshed
+2022-04-21 16:51:50 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper -Found 2 custom documentation plugin(s)
+2022-04-21 16:51:50 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -Scanning for api listing references
+2022-04-21 16:51:50 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner -Scanning for api listing references
+2022-04-21 16:51:50 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler.application -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-21 16:51:50 [main] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2022-04-21 16:51:50 [main] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 7 ms
+2022-04-21 16:51:50 [main] INFO  org.eclipse.jetty.server.AbstractConnector -Started ServerConnector@6aa7b67f{HTTP/1.1,[http/1.1]}{0.0.0.0:9300}
+2022-04-21 16:51:50 [main] INFO  org.springframework.boot.web.embedded.jetty.JettyWebServer -Jetty started on port(s) 9300 (http/1.1) with context path '/'
+2022-04-21 16:51:50 [main] INFO  Application -Started Application in 7.945 seconds (JVM running for 13.164)
+2022-04-21 16:51:55 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler -Shutting down ExecutorService 'taskScheduler'
+2022-04-21 16:51:55 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.AbstractConnector -Stopped ServerConnector@6aa7b67f{HTTP/1.1,[http/1.1]}{0.0.0.0:9300}
+2022-04-21 16:51:55 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.session -node0 Stopped scavenging
+2022-04-21 16:51:55 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.handler.ContextHandler.application -Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-04-21 16:51:55 [SpringContextShutdownHook] INFO  org.eclipse.jetty.server.handler.ContextHandler -Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@76216830{application,/,[file:///C:/Users/zeng/AppData/Local/Temp/jetty-docbase.7535645434944288252.9300/, jar:file:/F:/apache-maven-3.8.1/repository/com/github/xiaoymin/knife4j-spring-ui/2.0.4/knife4j-spring-ui-2.0.4.jar!/META-INF/resources],UNAVAILABLE}

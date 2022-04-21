@@ -1,0 +1,74 @@
+#app
+server:
+    port: 9300
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true  # 控制是否能够文件上传
+      max-file-size: -1
+      max-request-size: -1 # 1 , 1KB , 1MB
+      location: /tmp
+
+  #数据源和jpa配置
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    #数据库相关的配置url  -SSL连接设置为false
+    url: jdbc:mysql://rm-2zegh640d884r0ag56o.mysql.rds.aliyuncs.com:3306/fnj_cys?serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    #配置用户名
+    username: cys_admin_a
+    #配置密码
+    password: cysAdm29!
+  ## 是否启动日志 SQL 语句
+
+  #下面为连接池相关配置
+  dbcp2:
+    #初始化连接池大小
+    initial-size: 50
+    #陪住最小连接池数
+    min-idle: 10
+    #配置最大连接池数
+    max-idle: 100
+    #配置获取超时连接的等待时间
+    max-wait-millis: 30000
+    #配置多长时间进行一次检测,检测需要关闭的数据库连接
+    time-between-eviction-runs-millis: 200000
+    #配置连接在连接池的最小生存时间
+    remove-abandoned-on-maintenance: 200000
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password: fnj_redisqe
+    jedis:
+      pool:
+        max-active: 200
+        max-wait: 1000
+        max-idle: 60
+        min-idle: 10
+    timeout: 3000
+    block-when-exhausted: true
+  mvc:
+    static-path-pattern: /static/**
+    hiddenmethod:
+      　　　filter:
+        　　　enabled: true
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath:/Mapper/*Mapper.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.pro.entity
+  typeEnumsPackage: com.pro.enums
+  global-config:
+    #刷新mapper 调试神器
+    refresh: true
+  # 原生配置
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+
+
+

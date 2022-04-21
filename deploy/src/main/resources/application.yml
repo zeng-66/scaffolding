@@ -1,0 +1,33 @@
+spring:
+  profiles:
+    active: dev
+#    active: test
+  application:
+    name: jd
+    descp: 今叮直聘
+alisms:
+  accessKey: LTAI4G1SFUfFT7bU87H8S3Hm
+  secretKey: gLEv4mx0ROUnJpz1o7mCDp4CNP4XO8
+  signName: 放单网
+  smsLoginTempCode: SMS_189622123
+  chengPhoneTempCode: SMS_189622123
+  registerTempCode: SMS_189622123
+  forgetPassTempCode: SMS_189622123
+
+#异步线程池配置
+async:
+  config:
+    corePoolSize: 1
+    maxPoolSize: 20
+    queueCapacity: 5
+
+oss:
+  accessKey: LTAI4GEsroBKiq9CZDYkmvWn
+  secretKey: Q3Z5YpSjYndODAuZvdwbxagIIF04JI
+  endpoint: oss-cn-beijing.aliyuncs.com
+  bucketName: sunwu110
+  staticDomain: https://img.baokuanxitong.com/
+
+
+
+

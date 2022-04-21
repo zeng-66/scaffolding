@@ -1,0 +1,1 @@
+2022-04-21 16:51:44 [main] WARN  org.springframework.boot.autoconfigure.AutoConfigurationPackages -@EnableAutoConfiguration was declared on a class in the default package. Automatic @Repository and @Entity scanning is not enabled.

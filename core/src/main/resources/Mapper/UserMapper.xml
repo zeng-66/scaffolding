@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pro.mapper.UserMapper">
+    <sql id="tableName">
+        jd_user
+    </sql>
+
+    <sql id="baseColumn">
+        id,unionid,openid,wx_code,nick_name,head_url,sex,birthday,country,province,city,phone,register_time,last_login_time,corporate_id,status,is_delete,create_time,modify_time,create_id,modify_id
+    </sql>
+
+</mapper>

@@ -1,0 +1,1 @@
+INSERT INTO `sys_back_user_role`(`id`, `org_code`, `role_id`, `user_id`, `is_delete`, `create_time`, `modify_time`, `create_id`, `modify_id`) VALUES (1, 'PULUO', 1, 1, 0, '2021-12-29 18:42:36', '2021-12-29 19:29:45', 1, NULL);

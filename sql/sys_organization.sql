@@ -1,0 +1,1 @@
+INSERT INTO `sys_organization`(`id`, `org_name`, `org_code`, `link_man`, `phone`, `address`, `description`, `status`, `remark`, `is_delete`, `create_time`, `modify_time`, `create_id`, `modify_id`) VALUES (1, '杭州普罗云网络科技有限公司', 'PULUO', NULL, NULL, NULL, NULL, 1, NULL, 0, '2021-12-29 18:24:43', '2022-03-28 12:48:40', 1, 1);

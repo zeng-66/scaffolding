@@ -1,0 +1,1 @@
+INSERT INTO `sys_back_role`(`id`, `org_code`, `role_name`, `status`, `remarks`, `is_delete`, `create_time`, `modify_time`, `create_id`, `modify_id`) VALUES (1, 'PULUO', '超级管理员', 1, NULL, 0, '2020-08-03 11:56:42', '2021-12-29 19:30:18', 1, NULL);
